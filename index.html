@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Matt Haws</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito:300" rel="stylesheet">
+    <script src="./node_modules/basicscroll/dist/basicScroll.min.js"></script>
     <script type="text/javascript" src="./main.js"></script>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <main id="portfolio-main">
       <figure id="profile-pic">
-        <img src="./profile_pic.jpg" />
+        <img src="./assets/profile_pic.jpg" />
       </figure>
       <header id="header">
         <section id="name">
@@ -20,18 +22,36 @@
         </section>
       </header>
       <ul id="links">
-        <a href="https://matthaws.github.io/the-blog/" target="_blank"><li>Blog</li></a>
-        <li>Github</li>
-        <li>LinkedIn</li>
+        <a href="https://matthaws.com/the-blog/" target="_blank"><li>Blog</li></a>
+        <a href="https://www.github.com/matthaws" target="_blank"><li>Github</li></a>
+        <a href="https://www.linkedin.com/in/matt-haws/" target="_blank"><li>LinkedIn</li></a>
       </ul>
-      <h2 id="project-title">Recent Projects</h2>
+      <button id="resume">Resume</button>
+      <h2 id="project-title" class="growing-text">Recent Projects</h2>
         <ul id="projects">
-          <li id="project-item">
+          <li class="project-item">
               <h3><span>Weact</span></h3>
               <p><span>Wee little Javascript framework inspired by React</span></p>
           </li>
+          <li class="project-item">
+              <h3><span>Douze Points</span></h3>
+              <p><span>Social scoring app for Eurovision fans, built with React/Redux</span></p>
+          </li>
+          <li class="project-item">
+            <h3><span>Xanthus</span></h3>
+            <p><span>Homebrewed backend framework in Ruby, inspired by Rails</span></p>
+          </li>
+          <li class="project-item">
+              <h3><span>YouDown?</span></h3>
+              <p><span>An app to find fun people doing fun stuff, built with React/Redux and Rails</span></p>
+          </li>
         </ul>
-
+        <h2 id="skills-title" class="growing-text">Skills</h2>
+        <ul id="skills">
+          <li>
+          <img src="./assets/css.svg" />
+        </li>
+        </ul>
     </main>
   </body>
 </html>
