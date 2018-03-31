@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Matt Haws</title>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito:300" rel="stylesheet">
     <script src="./node_modules/basicscroll/dist/basicScroll.min.js"></script>
     <script type="text/javascript" src="./main.js"></script>
+    <link rel="stylesheet" href="./css/devicon.css">
+    <link rel="stylesheet" href="./css/devicon-colors.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
   </head>
@@ -26,7 +27,9 @@
         <a href="https://www.github.com/matthaws" target="_blank"><li>Github</li></a>
         <a href="https://www.linkedin.com/in/matt-haws/" target="_blank"><li>LinkedIn</li></a>
       </ul>
-      <button id="resume">Resume</button>
+      <a id="resume" href="./assets/resume.pdf">Resume</a>
+      <h2 id="about-me" class="growing-text">About Me</h2>
+
       <h2 id="project-title" class="growing-text">Recent Projects</h2>
         <ul id="projects">
           <li class="project-item">
@@ -48,9 +51,38 @@
         </ul>
         <h2 id="skills-title" class="growing-text">Skills</h2>
         <ul id="skills">
-          <li>
-          <img src="./assets/css.svg" />
-        </li>
+          <li class="skill-list-item">
+            <i class="skill-icon devicon-css3-plain colored"></i>
+            CSS3
+          </li>
+          <li class="skill-list-item">
+            <i class="skill-icon devicon-html5-plain colored"></i>
+            HTML5
+          </li>
+          <li class="skill-list-item">
+            <i class="skill-icon devicon-react-plain colored"></i>
+            React
+          </li>
+          <li class="skill-list-item">
+            <i class="skill-icon devicon-javascript-plain colored"></i>
+            Javascript
+          </li>
+          <li class="skill-list-item">
+            <i class="skill-icon devicon-jquery-plain colored"></i>
+            JQuery
+          </li>
+          <li class="skill-list-item">
+            <i class="skill-icon devicon-git-plain colored"></i>
+            GIT
+          </li>
+          <li class="skill-list-item">
+            <i class="skill-icon devicon-rails-plain colored"></i>
+            Rails
+          </li>
+          <li class="skill-list-item">
+            <i class="skill-icon devicon-ruby-plain colored"></i>
+            Ruby
+          </li>
         </ul>
     </main>
   </body>

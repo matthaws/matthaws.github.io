@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+
   document.querySelectorAll(".project-item").forEach(element => {
     element.onmousemove = e => {
     const x = e.pageX - e.target.offsetLeft;
@@ -8,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 });
 
-  document.querySelectorAll('#skills-title').forEach( element => {
+  document.querySelectorAll('.growing-text').forEach( element => {
     const instance = basicScroll.create({
       elem: element,
       from: "bottom-bottom",
@@ -20,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     });
+    debugger
     instance.start();
 
   })
