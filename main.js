@@ -8,22 +8,4 @@ document.addEventListener("DOMContentLoaded", () => {
     e.target.style.setProperty("--y", `${y}px`);
   };
 });
-
-  document.querySelectorAll('.growing-text').forEach( element => {
-    const instance = basicScroll.create({
-      elem: element,
-      from: "bottom-bottom",
-      to: "top-middle",
-      props: {
-        "--font-size": {
-          from: '30px',
-          to: '50px',
-        }
-      }
-    });
-    debugger
-    instance.start();
-
-  })
-
 });
