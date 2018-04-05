@@ -1,5 +1,5 @@
 #portfolio-main {
-  background-color: #3B415A;
+  background-color: #444b60;
   min-height: 300vh;
   display: grid;
   grid-template-columns: 1fr repeat(10, 100px) 1fr;
@@ -64,13 +64,13 @@ header {
 #resume {
   border: 1px solid #DFE0E0;
   border-radius: 5px;
-  background-color: inherit;
+  background-color: #3B415A;
   display:flex;
   align-items: center;
   justify-content: center;
   color: #DFE0E0;
-  grid-row-start: 3;
-  grid-column: 10 / 12;
+  grid-row-start: 5;
+  grid-column: 3/5;
   font-size: 16px;
   height: 70px;
   align-self: center;
@@ -85,23 +85,24 @@ header {
 
 #about-me {
   grid-row-start: 4;
-  grid-column: 3 / 11;
+  grid-column: 2 / 11;
 }
 
 #project-title {
-  grid-column: 3 / 11;
-  grid-row-start: 5;
+  grid-column: 2 / 11;
+  grid-row-start: 6;
 }
 
 #projects {
-  grid-row-start: 6;
-  grid-column: 4 / 12;
+  grid-row-start: 7;
+  grid-column: 3 / 11;
 }
 
 .project-item {
+  background-color: #3B415A;
   color: #DFE0E0;
   text-shadow: 1px 1px black;
-  grid-column: 4 / 12;
+  grid-column: 3 / 12;
   border: 1px solid #DFE0E0;
   border-radius: 5px;
   height: 100px;
@@ -140,12 +141,12 @@ header {
 #skills-title {
   font-size: var(--font-size);
   grid-row-start: 12;
-  grid-column-start: 3;
+  grid-column-start: 2;
 }
 
 #skills {
   grid-row-start: 13;
-  grid-column: 4 / 12;
+  grid-column: 3 / 11;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
