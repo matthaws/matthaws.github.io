@@ -55,7 +55,7 @@ header {
   grid-column-start: 11;
   grid-row-start: 1;
   align-self: center;
-  font-size: 20px;
+  font-size: 1.2em;
 }
 
 #links li {
@@ -71,7 +71,7 @@ header {
   border: 1px solid #DFE0E0;
   border-radius: 5px;
   background-color: #3B415A;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   color: #DFE0E0;
