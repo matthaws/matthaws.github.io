@@ -3,8 +3,8 @@
   display: grid;
   grid-auto-rows: minmax(100px, auto);
   font-family: "Nunito", sans-serif;
-  grid-template-columns: 1fr
 }
+
 
 @media (min-width: 1000px) {
   #portfolio-main {
@@ -221,4 +221,52 @@ header {
 #email-icon {
   height: 75px;
   padding-bottom: 45px;
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    padding-top: 40px;
+  }
+
+  #portfolio-main {
+    grid-template-columns: 10px 1fr 10px
+  }
+
+  #profile-pic {
+    grid-column: 2;
+    display: none;
+  }
+
+  #contact-list, #contact, #skills, #skills-title, .project-item, #projects, #project-title {
+    grid-column: 2;
+  }
+
+  .project-item {
+    font-size: 22px;
+  }
+
+  #resume {
+    grid-column: 2;
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  #about-me {
+    grid-column: 2;
+  }
+
+  #about-me-text {
+    grid-column: 2;
+    padding: 5px;
+    font-size: 14px;
+
+  }
+
+  header {
+    grid-column-start: 2;
+  }
+
+  #links {
+    display: none;
+  }
 }
