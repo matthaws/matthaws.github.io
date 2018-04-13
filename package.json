@@ -4,6 +4,5 @@
   "main": "index.js",
   "repository": "https://github.com/matthaws/matthaws.github.io.git",
   "author": "Matt Haws <matthaws@gmail.com>",
-  "license": "MIT",
-
+  "license": "MIT"
 }

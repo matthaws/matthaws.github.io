@@ -8,32 +8,49 @@
     <link rel="stylesheet" href="./css/devicon.css">
     <link rel="stylesheet" href="./css/devicon-colors.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/skeleton.css">
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <main id="portfolio-main">
+      <div class="container">
+
       <figure id="profile-pic">
         <img src="./assets/profile_pic.jpg" />
       </figure>
-      <header id="header">
+      <div class="row header-row">
+      <header class="ten columns offset-by-two" id="header">
         <section id="name">
           <h1>Matthew Haws</h1>
           <h3>Web Developer</h3>
-        </section>
+          </section>
+          <ul id="links">
+            <a href="http://matthaws.com/the-blog/" target="_blank"><li>Blog</li></a>
+            <a href="https://www.github.com/matthaws" target="_blank"><li>Github</li></a>
+            <a href="https://www.linkedin.com/in/matt-haws/" target="_blank"><li>LinkedIn</li></a>
+          </ul>
+
       </header>
-      <ul id="links">
-        <a href="http://matthaws.com/the-blog/" target="_blank"><li>Blog</li></a>
-        <a href="https://www.github.com/matthaws" target="_blank"><li>Github</li></a>
-        <a href="https://www.linkedin.com/in/matt-haws/" target="_blank"><li>LinkedIn</li></a>
-      </ul>
-      <a id="resume" href="./assets/resume.pdf">Resume</a>
-      <h2 id="about-me">About Me</h2>
-      <section id="about-me-text">
+    </div>
+    <div class="row">
+      <a id="resume" class="u-pull-right three columns" href="./assets/resume.pdf">Resume</a>
+    </div>
+    <div class="row">
+      <h2 class="twelve columns u-pull-left" id="about-me">About Me</h2>
+    </div>
+
+    <div class="row">
+      <section class="eleven columns offset-by-one" id="about-me-text">
         I am an NYC-based web developer and instructor with experience working with and teaching Javascript, React, Redux, and Rails. Above all else, I believe in and deeply value collaboration and human interaction. As a former theater professional, I have seen the potential of cooperative, organized teams tackling interesting and ever-evolving problems. I am eager to bring that perspective to building technology that is both inspired by and further inspires human interaction and collaboration. I’m a life-long lover of tech, literature, video games, the arts, and bad puns. I consider myself an introvert who loves people and teamwork. I live in beautiful Greenpoint, Brooklyn, with my partner of ten years, Ian, and our obnoxious and yet somehow-still-loveable cat.
       </section>
+    </div>
 
-      <h2 id="project-title">Recent Projects</h2>
-        <ul id="projects">
+    <div class="row">
+      <h2 class="twelve columns" id="project-title">Recent Projects</h2>
+    </div>
+
+    <div class="row">
+        <ul class="eleven columns offset-by-one" id="projects">
           <a target="_blank" href="https://www.github.com/matthaws/weact">
             <li class="project-item">
                 <h3><span>Weact</span></h3>
@@ -59,8 +76,13 @@
             </li>
           </a>
         </ul>
-        <h2 id="skills-title">Skills</h2>
-        <ul id="skills">
+
+        <div class="row">
+          <h2 class="twelve columns" id="skills-title">Skills</h2>
+        </div>
+
+        <div class="row">
+        <ul class="nine columns offset-by-two" id="skills">
           <li class="skill-list-item">
             <i class="skill-icon devicon-css3-plain colored"></i>
             CSS3
@@ -94,9 +116,14 @@
             Ruby
           </li>
         </ul>
+      </div>
 
-        <h2 id="contact">Contact Me</h2>
-        <ul id="contact-list">
+      <div class="row">
+        <h2 class="twelve columns" id="contact">Contact Me</h2>
+      </div>
+
+      <div class="row">
+        <ul class="nine columns offset-by-two" id="contact-list">
           <a href="mailto:matthaws@gmail.com">
           <li class="skill-list-item">
             <img id="email-icon" src="./assets/email-128.png" />
@@ -118,6 +145,7 @@
           </li>
         </a>
         </ul>
+      </div>
     </main>
   </body>
 </html>
